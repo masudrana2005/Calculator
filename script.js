@@ -23,14 +23,4 @@ function calculate(){
     catch{
         document.getElementById("display").value = "Calculation error!"
     }
-    /*
-    // Same Code
-    var value = document.getElementById("display").value
-    try{
-        document.getElementById("display").value = eval(value);
-    }
-    catch{
-        document.getElementById("display").value = "Calculation error!";
-    }
-    */
 }
